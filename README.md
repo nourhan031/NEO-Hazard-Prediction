@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project aims to predict whether a Nearest Earth Object (NEO) observed by NASA from 1910 to 2024 is hazardous or not. Using a dataset containing various features of these NEOs, we applied several machine learning models to identify the most effective model for this binary classification task.
+This project aims to predict whether a Nearest Earth Object (NEO) observed by NASA from 1910 to 2024 is hazardous or not. Using a dataset containing various features of these NEOs, several machine learning models were applied to identify the most effective model for this binary classification task.
 
 ## Dataset
 
@@ -63,17 +63,7 @@ Several machine learning models were trained and evaluated:
    - Accuracy: 65%
    - AUC-ROC Curve was plotted.
 
-### Feature Importance
-
-For the best-performing model (Random Forest):
-- The feature importance was analyzed, highlighting which features had the most significant impact on the model's performance.
-- The most important features were plotted in a histogram.
-
 ## Insights and Findings
 
 - **Model Performance**: The Random Forest model provided the highest accuracy of 91%, making it the most reliable model for predicting hazardous NEOs.
-- **Feature Importance**: The analysis of feature importance revealed that `absolute_magnitude` and `relative_velocity` were among the most influential features in predicting whether an NEO is hazardous.
-
-## Conclusion
-
-This project successfully developed a model that can predict the hazardousness of NEOs with high accuracy. The Random Forest model stood out as the best-performing model, and feature importance analysis provided valuable insights into which features are most critical in the prediction process.
+- **Feature Importance**: The analysis of feature importance revealed that `estimated_diameter_max`, `absolute_magnitude` and `estimated_diameter_min` were the most influential features in the prediction.
